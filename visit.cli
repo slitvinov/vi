@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# a wrapper for shebang
+
+if test $# = 0
+then visit -cli
+else visit -cli -s "$@"
+fi
